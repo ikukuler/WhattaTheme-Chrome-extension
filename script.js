@@ -10,7 +10,7 @@ var getThemeName = function() {
         var slide = themePlusCss.indexOf("/");
         var theme = themePlusCss.slice(0, slide);
         return theme;
-	} else return "Theme Name Not Found!";
+	} else return "Theme Name Not Found";
 
 }
 
