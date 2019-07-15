@@ -1,4 +1,3 @@
-
 window.addEventListener('DOMContentLoaded', function () {
   // ...query for the active tab...
   chrome.tabs.query({
