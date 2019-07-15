@@ -10,8 +10,7 @@ window.addEventListener('DOMContentLoaded', function () {
     chrome.tabs.sendMessage(
         tabs[0].id,
         {from: 'popup', subject: 'getTheme'},
-        // ...also specifying a callback to be called
-        //    from the receiving end (content script)
+        // ...also specifying a callback to be called from the receiving end (content script) 
         function(data) {
             document.querySelector("h1").textContent = data;
         });
